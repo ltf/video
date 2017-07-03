@@ -92,3 +92,6 @@
 /tools/seek_print
 /tools/uncoded_frame
 /tools/zmqsend
+libavcodec/bsf_list.c
+libavformat/protocol_list.c
+
