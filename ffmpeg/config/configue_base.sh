@@ -29,7 +29,7 @@
 ##  export FF_CFG="$FF_CFG --enable-small"           						#optimize for size instead of speed
 ##  export FF_CFG="$FF_CFG --disable-runtime-cpudetect"					#disable detecting CPU capabilities at runtime (smaller binary)
 ##  export FF_CFG="$FF_CFG --enable-gray"            						#enable full grayscale support (slower color)
-##  export FF_CFG="$FF_CFG --disable-swscale-alpha"  						#disable alpha channel support in swscale
+  export FF_CFG="$FF_CFG --disable-swscale-alpha"  						#disable alpha channel support in swscale
 ##  export FF_CFG="$FF_CFG --disable-all"            						#disable building components, libraries and programs
 ##  export FF_CFG="$FF_CFG --enable-raise-major"     						#increase major version numbers in sonames [no]
 
@@ -48,20 +48,20 @@
   export FF_CFG="$FF_CFG --disable-txtpages"       						#do not build text documentation pages
 
 #####  The following libraries provide various hardware acceleration features:
-##  export FF_CFG="$FF_CFG --disable-audiotoolbox"   						#disable Apple AudioToolbox code [autodetect]
-##  export FF_CFG="$FF_CFG --disable-cuda"           						#disable dynamically linked Nvidia CUDA code [autodetect]
-##  export FF_CFG="$FF_CFG --disable-cuvid"          						#disable Nvidia CUVID support [autodetect]
-##  export FF_CFG="$FF_CFG --disable-d3d11va"        						#disable Microsoft Direct3D 11 video acceleration code [autodetect]
-##  export FF_CFG="$FF_CFG --disable-dxva2"          						#disable Microsoft DirectX 9 video acceleration code [autodetect]
+  export FF_CFG="$FF_CFG --disable-audiotoolbox"   						#disable Apple AudioToolbox code [autodetect]
+  export FF_CFG="$FF_CFG --disable-cuda"           						#disable dynamically linked Nvidia CUDA code [autodetect]
+  export FF_CFG="$FF_CFG --disable-cuvid"          						#disable Nvidia CUVID support [autodetect]
+  export FF_CFG="$FF_CFG --disable-d3d11va"        						#disable Microsoft Direct3D 11 video acceleration code [autodetect]
+  export FF_CFG="$FF_CFG --disable-dxva2"          						#disable Microsoft DirectX 9 video acceleration code [autodetect]
 ##  export FF_CFG="$FF_CFG --enable-libmfx"          						#enable Intel MediaSDK (AKA Quick Sync Video) code via libmfx [no]
 ##  export FF_CFG="$FF_CFG --enable-libnpp"          						#enable Nvidia Performance Primitives-based code [no]
 ##  export FF_CFG="$FF_CFG --enable-mmal"            						#enable Broadcom Multi-Media Abstraction Layer (Raspberry Pi) via MMAL [no]
-##  export FF_CFG="$FF_CFG --disable-nvenc"          						#disable Nvidia video encoding code [autodetect]
+  export FF_CFG="$FF_CFG --disable-nvenc"          						#disable Nvidia video encoding code [autodetect]
 ##  export FF_CFG="$FF_CFG --enable-omx"             						#enable OpenMAX IL code [no]
 ##  export FF_CFG="$FF_CFG --enable-omx-rpi"         						#enable OpenMAX IL code for Raspberry Pi [no]
 ##  export FF_CFG="$FF_CFG --disable-vaapi"          						#disable Video Acceleration API (mainly Unix/Intel) code [autodetect]
-##  export FF_CFG="$FF_CFG --disable-vda"            						#disable Apple Video Decode Acceleration code [autodetect]
-##  export FF_CFG="$FF_CFG --disable-vdpau"          						#disable Nvidia Video Decode and Presentation API for Unix code [autodetect]
+  export FF_CFG="$FF_CFG --disable-vda"            						#disable Apple Video Decode Acceleration code [autodetect]
+  export FF_CFG="$FF_CFG --disable-vdpau"          						#disable Nvidia Video Decode and Presentation API for Unix code [autodetect]
 ##  export FF_CFG="$FF_CFG --disable-videotoolbox"   						#disable VideoToolbox code [autodetect]
 
 ###Toolchain options:
